@@ -1,0 +1,19 @@
+.row img{
+    width: 250px;
+    height: 250px;
+}
+table{
+    margin: 0;
+}
+main{
+    margin-bottom: 12%;
+}
+.eleccion{
+    padding-bottom: 10px;
+}
+main{
+    margin-bottom: 25%;
+}
+footer{
+    margin-bottom: -10px;
+}

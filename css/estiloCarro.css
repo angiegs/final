@@ -1,0 +1,47 @@
+.row{
+    margin-top: -100px;
+}
+table{
+    margin-left: 25%;
+    width: 100%;
+}
+main{
+    margin-bottom: 25%;
+}
+table img{
+    height: 155px;
+    width: 160px;
+    padding: 10px 20px;
+}
+table td span{
+    font-weight: bold;
+}
+.tt{
+    font-weight: bold;
+} <input type="radio" id="paypal" name="gender" value="male" class="bold" onchange="seleccion()"> PAYPAL<br>
+footer{
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+#cantidad{
+ padding-bottom: 15px;   
+}
+.table2{
+    margin-top: 130px;
+    margin-left: -5px;
+}
+.table2 p{
+    text-align: center;
+}
+.pie{
+    margin-top: 140px;
+    margin-bottom: -40px;
+    height: 60px;
+}
+.bt{
+    border-top: 1px solid black;
+}
+#ali{
+    margin-top: 15px;
+    margin-left: 47%;
+}

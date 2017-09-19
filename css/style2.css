@@ -1,0 +1,90 @@
+#estilo_input1 {
+     background: #02c5fd;
+     color: white;
+     align-content: center;
+ }
+ 
+ #estilo_input2 {
+     background: #ff0080;
+     color: white;
+ }
+ 
+ #estilo_footer {
+     background: #f9f9f9;
+ }
+ 
+ #estilo_logo {
+     width: 220px;
+     height: 75px;
+ }
+
+
+
+
+.contact-section{
+  padding-top: 8px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+section {
+    width: 90%;
+    height:auto;
+    padding:10px;
+    margin: 90px auto 0 auto;
+}
+.estilo1{
+    margin: 0 auto;
+    float: inherit;
+    width: 50%;
+    text-align: center;
+}
+
+fieldset {
+  height: 50%;
+  width: 80%;
+  background: #ffffff;
+  margin: auto;
+  text-align: justify;
+    color: magenta;
+   
+}
+.controls{
+     border-width: 2px;
+    border-color: cyan;
+}
+
+ .left{
+         width: 50%;
+
+    float: left;
+}
+ #img {
+     border-right: 0px;
+ }
+ 
+ #estilo_id {
+     text-align: center;
+ }
+
+.form-group{
+    float: right;
+}
+.subir{
+    float: right;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+    border-width: 2px;
+border-color: cyan;
+  font-size: 1.3em;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}   

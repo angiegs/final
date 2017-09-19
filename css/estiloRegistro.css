@@ -1,0 +1,143 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+#formulario{
+    background-color: #f1fafe;
+    box-shadow: 2px 2px 3px 3px #e4e4e4;
+    padding: 10px;
+}
+
+#botonRegistro{
+    background-color: #ff0080;
+}
+
+#botonRegresar{
+    margin-left: -40px;
+}
+
+#boton{
+    margin-left: 36.5%
+}
+
+
+#linea {
+  height: 10px;
+  border-color: #df90c2;
+}
+
+.logo{
+    width: 15%;
+}
+
+#colorTexto{
+    text-align: center;
+    color: #ababab;
+}
+
+.titulo {
+margin-top: -60px;
+margin-left: 500px;
+width: auto;
+background-color: white
+}
+
+#parrafo{
+   margin-top: 30px; 
+   text-align: center;
+}
+
+
+footer{
+    width: 101%;
+	height: 40px;
+    background-color: #d4f0fc;
+    color: #9c9c9c;
+    text-align: center;
+    padding-top: 0.7%;
+    margin-top: 66.5px;
+}
+
+@media only screen and (min-device-width: 480px) and (max-width: 800px){
+
+.logo{
+width: 20%;
+}
+    
+.titulo {
+margin-top: -55px;
+margin-left: 260px;
+}
+    
+h1{
+font-size: 200%;     
+}
+    
+h2{
+font-size: 150%;
+}
+    
+h4{
+font-size: 110%;
+}
+    
+hr{
+   margin-top: 37px;     
+}
+    
+#parrafo{
+   margin-top: 25px;
+}
+    
+#formulario{
+    margin-top: 10px;
+} 
+    
+footer{
+    padding-top: 15px;
+    font-size: 10px;
+}
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .logo{
+width: 40%;
+}
+    
+    .titulo {
+margin-left: 60px;
+}
+    
+    h1{
+font-size: 150%;     
+}
+    
+    h2{
+font-size: 130%;
+}
+    
+h4{
+font-size: 90%;
+}
+    
+    
+#boton{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+}
+
+

@@ -1,0 +1,283 @@
+body {
+          background-color: #e4e4e4;
+          
+      }
+
+
+#background{
+    background-color: aqua
+}
+
+#img{
+    width: 15%;
+}
+
+#carrito{
+    width: 140%;
+    margin-top: -10px;
+    margin-left: -45px
+}
+
+#estilologo {
+    width: 220px;
+    height: 75px;
+    padding: 1px;
+}
+
+#datosUsuario{
+    margin-top: 50px;
+}
+
+.row{
+    margin-top: 77px;
+    background-color: #e4e4e4;
+    width: auto;
+    height: auto;
+}
+
+.imagenes{
+    width: 70%;
+    height: 230px;
+    margin-left: 60px;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+}
+
+#fotoPerfil{
+    width: 25%;
+    border-radius: 10px;
+}
+
+.derecha{
+    margin-top: -100px;
+    margin-right: 356px;
+    float: right;
+}
+
+.der{
+    float: right;
+    margin-right: 70px
+    
+}
+
+.izquierda{
+    float: left;
+    margin-left: 40px;
+}
+
+.opciones{
+    color: #ff0080;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+
+#containerImg{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a:link {
+    color: #ff0080;
+}
+
+/* visited link */
+a:visited {
+    color: #ff0080;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00a5ed;
+}
+
+#nombreUsuario{
+    margin-left: 10px;
+    float: left;
+}
+
+
+#image-preview {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  color: #ecf0f1;
+  border-radius: 10px;
+  width: 12%;
+  height: 150px;
+  margin-left: 450px;
+  margin-top: -30px;
+  float: left
+}
+
+
+#image-preview input {
+  line-height: 200px;
+  font-size: 200px;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  z-index: 10;
+
+}
+
+
+#image-preview label {
+  position: absolute;
+  z-index: 5;
+  opacity: 0.8;
+  cursor: pointer;
+  width: 200px;
+  height: 20px;
+  font-size: 10px;
+  line-height: 20px;
+  background-color: aliceblue;
+  color: gainsboro;
+  text-transform: uppercase;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+
+
+footer{
+    width: 101%;
+	height: 40px;
+   
+    color: #9c9c9c;
+    text-align: center;
+    padding-top: 0.7%;
+    margin-top: 66.5px;
+}
+
+
+
+@media only screen and (min-device-width: 481px) and (max-width: 800px) {
+
+#image-preview {
+  width: 20%;
+  margin-left: 240px;
+}
+
+    
+#datosUsuario{
+    margin-top: 30px;
+}
+          
+.imagenes{
+    width: 70%;
+    height: 170px; 
+    margin-left: 40px;
+}
+    
+.texto{
+    margin-top: 10px;
+}
+    
+#containerImg{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h5{
+        font-size: 90%;
+    }
+    
+.opciones{
+    width: 80%;
+}
+  
+.der{
+    margin-right: 14px;
+   
+}
+
+.izquierda{
+    margin-left: 10px;
+ 
+}
+   
+    h4{
+        font-size: 100%;
+    }    
+    
+footer{
+    padding-top: 15px;
+    font-size: 10px;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+
+#image-preview {
+  width: 30%;
+  height: 80px;
+  margin-left: 20px;
+}
+    
+#nombreUsuario{
+    margin-top: -20px;
+}
+       
+#datosUsuario{
+    margin-top: 70px;
+}
+       
+#containerImg{
+    margin-top: 140px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+.imagenes{
+    width: 110%;
+    height: 120px;
+    margin-left: -10px;
+}
+    
+.texto{
+    margin-left: 12px;
+    width: 70%;
+    margin-top: 10px;
+}
+    
+.opciones{
+    margin-top: -5px;
+}
+  
+.der{
+    margin-right: 1px;
+   
+}
+
+.izquierda{
+    margin-left: -30px;
+ 
+}
+    h4{
+        font-size: 100%;
+    }
+
+    h5{
+        font-size: 80%;
+    }
+
+}
+
+
+
